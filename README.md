@@ -1,11 +1,10 @@
 # df_chefdk-cookbook
 
-TODO: Enter the cookbook description here.
+Takes the Chefdk and and installs it onto the local machine for a working version of Chef. 
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
-
+This will currently only support RHEL, as this is being written to work with the dataFundamentals Jenkins server (CentOS)
 ## Attributes
 
 <table>

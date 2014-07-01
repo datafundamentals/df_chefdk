@@ -7,6 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-execute "sudo rpm -Uvh /vagrant/binaries/chefdk-0.1.0-1.el6.x86_64.rpm" do 
-	action :run
+package "chefdk" do 
+	source "/vagrant/binaries/chefdk-0.1.0-1.el6.x86_64.rpm"
+	action :install
 end
